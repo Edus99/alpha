@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --brand: #ea580c; }
+body { color: #171717; background: linear-gradient(#fafafa, #f3f4f6); }
+.btn { @apply inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl shadow; }
+.btn-primary { @apply text-white; background: var(--brand); }
+.btn-outline { @apply border bg-white; }
